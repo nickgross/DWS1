@@ -70,7 +70,7 @@ h3, h4 {
 /****** image gallery styling ******/
 #gallery_img {
   display: table;
-  width: 90%;
+  width: 94%;
   margin: auto 27px;
 	}
 #gallery_img a {
@@ -80,11 +80,11 @@ h3, h4 {
 	}
 #gallery_img img {
 	border: solid 4px rgba(72,144,255,1.00);
-	width: 120%;
- 	max-width: 300px;
+	width: 130%;
+ 	max-width: 250px;
 	}
 #main_img {
-  width: 90%;
+  width: 94%;
   margin: auto 5px;
 	}
 #main_img img {
@@ -94,6 +94,7 @@ h3, h4 {
 	}
 /****** figcaption style ******/
 figcaption {
+	text-decoration:underline;
 	text-align:center;
 	color:#FFFFFF;
 	}
