@@ -7,31 +7,31 @@ body {
 /****** p style ******/
 .Springs {
     font-family: "Arial", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 100%;
+    font-size: 1.00em;
 	text-align:center;
     font-weight: normal;
     line-height: 100%;
     text-indent: 20px;
 	color:hsla(0,0%,100%,1.00);
 	float: left;
-	width:490px;
+	width:30.625em;
 	padding: 5px;
 	}
 .TopParks {
     font-family: "Arial", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 100%;
+    font-size: 1.00em;
 	text-align:center;
     font-weight: normal;
     line-height: 100%;
     text-indent: 20px;
 	color:hsla(0,0%,100%,1.00);
 	float: right;
-	width:470px;
+	width:30.625em;
 	padding: 5px;
 		}
 .Top {
     font-family: "Arial", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 100%;
+    font-size: 1.00em;
 	text-align:center;
     font-weight: normal;
     line-height: 100%;
@@ -43,7 +43,7 @@ h1 {
 	color:#FFFFFF;
     text-align: center;
     font-family: 'Viga', sans-serif;
-    font-size:95px;
+    font-size:5.938em;
     font-weight: lighter;
     text-shadow: 2px 2px #000000;
 	}
@@ -53,7 +53,7 @@ h1 {
 	background-repeat:no-repeat;
 	background-position: 1%;
 	font-family: 'Viga', sans-serif;
-    font-size: 200%;
+    font-size: 2.000em;
     font-weight:lighter;
 	color:rgba(72,144,255,1.00);
 	text-shadow: 2px 2px rgba(0,0,0,.5);
@@ -65,7 +65,7 @@ h1 {
 	background-repeat:no-repeat;
 	background-position: 1%;
 	font-family: 'Viga', sans-serif;
-    font-size: 200%;
+    font-size: 2.000em;
     font-weight:lighter;
 	color:rgba(72,144,255,1.00);
 	text-shadow: 2px 2px rgba(0,0,0,.5);
@@ -74,7 +74,7 @@ h1 {
 /****** h3,h4 style ******/
 h3, h4 {
 	font-family:'Viga';
-	font-size:120%;
+	font-size:1.250em;
 	color:rgba(255,255,255,1.00);
 	text-shadow: 1px 2px rgba(0,0,0,.5);
 	text-align:center;
@@ -105,13 +105,13 @@ h3, h4 {
     margin-left: 300px;
     text-shadow: -1px -1px #000000;
 	font-family:'viga';
-	font-size:15px;
+	font-size:1.875em;
 		}
 /****** ol style ******/
 .list { 
  	list-style-type:upper-roman; 
 	display: block;
-	font-size:16px;
+	font-size:1.000em;
 	color: rgba(72,144,255,1.00);
 	font-family:'viga';
 	float:right;
@@ -146,8 +146,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
  	max-width: 250px;
 	}
 #main_img {
-  width: 110%;
-  margin: auto 5px;
+  width: 79%;
+  margin-right:auto;
+  margin-left:auto;
 	}
 #main_img img {
 	border: solid 4px rgba(72,144,255,1.00);
@@ -163,10 +164,10 @@ figcaption {
 /****** link styles ******/
 .links { 
 	width: 100%;
-	position:relative; 
-	display: block; 
+	position: relative;
+	display: compact; 
 	left: 38%;
-	font-size:18px;
+	font-size:1.125em;
 	color: rgba(72,144,255,1.00);
 	font-family:'viga';
 	}
