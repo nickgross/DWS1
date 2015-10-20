@@ -110,13 +110,13 @@ h3, h4 {
 		}
 /****** ol style ******/
 .list { 
+	clear: left;
  	list-style-type:upper-roman; 
 	font-size:.900em;
 	color: rgba(72,144,255,1.00);
 	font-family:'viga';
-	float:right;
-	width:275px;
-	margin: 35px;
+	width:50%;
+	margin: 105px;
 	border:2px solid rgba(0,0,0,.32);
 	box-shadow: 0 2px 2px rgba(0,0,0,1.00);
 	background: rgba(255,255,255,1);
@@ -159,10 +159,9 @@ figcaption {
 	}
 /****** link styles ******/
 .links { 
-	clear:left;
-	width: 100%;
-	position: relative;
-	left: 38%;
+	width: 93%;
+	list-style:none;
+	text-align:center;
 	font-size:1.125em;
 	color: rgba(72,144,255,1.00);
 	font-family:'viga';
