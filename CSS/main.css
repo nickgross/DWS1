@@ -38,7 +38,7 @@ body {
     text-indent: 20px;
 	color:hsla(0,0%,100%,1.00);
 		}
-/****** h1 style ******/
+/****** h1 style *****/
 h1 {
 	color:#FFFFFF;
     text-align: center;
@@ -99,7 +99,7 @@ h3, h4 {
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#022170', endColorstr='#040070', GradientType=0 );
 /* IE6-9 */
 	}
-/****** nav ******/
+/****** nav *****/
 #nav ul li {
 	display:inline;
 	margin-right: -320px;
@@ -108,7 +108,7 @@ h3, h4 {
 	font-family:'viga';
 	font-size:1.175em;
 		}
-/****** ol style ******/
+/****** ol style *****/
 .list { 
 	clear: left;
  	list-style-type:upper-roman; 
@@ -125,10 +125,10 @@ h3, h4 {
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), color-stop(0.47, rgba(246,246,246,1)),    	to(rgba(237,237,237,1)));
     background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
     background: linear-gradient(rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
 
 	}
-/****** image gallery styling ******/
+/****** image gallery styling *****/
 .gallery_img {
   width: 95%;
   margin-left:auto;
@@ -139,7 +139,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	box-shadow: 0px 0px 9px #000000;
 	width:140%;
  	max-width: 32%;
-	
 	}
 #main_img {
   width: 79%;
@@ -151,13 +150,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	box-shadow: 0px 0px 9px #000000;
  	max-width: 800px;
 	}
-/****** figcaption style ******/
+/****** figcaption style *****/
 figcaption {
 	text-decoration:underline;
 	text-align:center;
 	color:#FFFFFF;
 	}
-/****** link styles ******/
+/****** link styles *****/
 .links { 
 	width: 93%;
 	list-style:none;
@@ -165,13 +164,14 @@ figcaption {
 	font-size:1.125em;
 	color: rgba(72,144,255,1.00);
 	font-family:'viga';
+	
 	}
-/****** footer styling ******/
+/****** footer styling *****/
 footer {
 	text-align:center;
 	color:#FFFFFF;
 	}
-/****** unvisited link ******/
+/****** unvisited link *****/
 a:link {
     color: #FFFFFF;
 	}
@@ -183,7 +183,82 @@ a:visited {
 a:hover {
     color: #8A8A8A;
 	}
-/****** selected link ******/
+/****** selected link *****/
 a:active {
-    color: #C9FF64;
+    color: #000000;
 	}
+/****** Table Style ******/
+.Stats {
+	margin:0px;padding:0px;
+	width:100%;
+	border:2px solid #FFFFFF;
+	}
+.Stats table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+	}
+.Stats tr:hover td {
+	color:rgba(86,86,86,1.00);
+	}
+.Stats tr:nth-child(odd) { 
+	background-color:#aad4ff; 
+	}
+.Stats tr:nth-child(even) { 
+	background-color:#ffffff; 
+	}
+.Stats td {
+	vertical-align:middle;
+	border:2px solid #FFFFFF;
+	text-align:center;
+	letter-spacing: 3px;
+	padding:7px;
+	font-size:.900em;
+	font-family:'viga';
+	font-weight:bold;
+	color: rgba(0,69,130,1.00);
+	}
+.Stats tr:first-child th {	
+	background-color:#005fbf;
+	border:1px solid #ffffff;
+	text-align:center;
+	border-width:1px 1px 1px 1px;
+	font-size:1.2em;
+	font-family:'viga';
+	font-weight:bold;
+	color:#ffffff;
+	text-shadow: 1px 2px 0 #000000; 
+	}
+.Stats tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	
+	background-color:#005fbf;
+	}
+.Stats tr:first-child td:first-child{
+	border-width:1px 1px 1px 1px;
+	}
+.Stats tr:first-child td:last-child{
+	border-width:1px 1px 1px 1px;
+	}
+/****** form styling ******/
+.form {
+	text-align:center;
+	background-color:rgba(42,106,242,1.00);
+	font-size:.9em;
+	padding:0px;
+	margin:0px;
+	font-family:'viga';
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0 #000000;
+	border: 3px solid #FFFFFF;
+	width:30%;
+	float: none;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+	
